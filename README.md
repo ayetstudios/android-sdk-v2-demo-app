@@ -24,7 +24,6 @@ All SDK configuration values are in [`AyetConfig.kt`](app/src/main/java/com/exam
 
 ```kotlin
 object AyetConfig {
-    const val SDK_VERSION = "1.0.0"
     const val PLACEMENT_ID = 21209
 
     const val ADSLOT_OFFERWALL = "SdkV2Offerwall"

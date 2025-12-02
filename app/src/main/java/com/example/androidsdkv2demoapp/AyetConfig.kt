@@ -9,9 +9,6 @@ import com.ayet.sdk.AyetSdk
  */
 object AyetConfig {
 
-    // SDK version
-    const val SDK_VERSION = "1.0.0"
-
     // Your Ayet placement ID
     const val PLACEMENT_ID = 21209
 

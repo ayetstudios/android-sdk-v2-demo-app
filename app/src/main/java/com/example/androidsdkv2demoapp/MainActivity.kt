@@ -380,25 +380,15 @@ fun FooterInfo() {
         AyetSdk.Gender.NON_BINARY -> "Non-Binary"
     }
 
-    Column(
+    Text(
+        text = "Gender: $genderText • Age: ${AyetConfig.DEFAULT_AGE}",
+        style = MaterialTheme.typography.bodySmall,
+        color = MaterialTheme.colorScheme.onBackground.copy(alpha = 0.4f),
+        textAlign = TextAlign.Center,
         modifier = Modifier
             .fillMaxWidth()
-            .padding(horizontal = 32.dp),
-        horizontalAlignment = Alignment.CenterHorizontally
-    ) {
-        Text(
-            text = "SDK v${AyetConfig.SDK_VERSION}",
-            style = MaterialTheme.typography.bodySmall,
-            color = MaterialTheme.colorScheme.onBackground.copy(alpha = 0.5f)
-        )
-        Spacer(modifier = Modifier.height(4.dp))
-        Text(
-            text = "Gender: $genderText • Age: ${AyetConfig.DEFAULT_AGE}",
-            style = MaterialTheme.typography.bodySmall,
-            color = MaterialTheme.colorScheme.onBackground.copy(alpha = 0.4f),
-            textAlign = TextAlign.Center
-        )
-    }
+            .padding(horizontal = 32.dp)
+    )
 }
 
 @Composable

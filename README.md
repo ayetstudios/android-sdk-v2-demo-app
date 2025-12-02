@@ -1,0 +1,55 @@
+# Ayet Android SDK v2 Demo App
+
+A demo application showcasing the integration of the [Ayet Android SDK v2](https://central.sonatype.com/artifact/io.ayet/android-sdk-v2).
+
+## Requirements
+
+- Android SDK 24+ (Android 7.0)
+- JDK 11+
+
+## Getting Started
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/AyetStudios/android-sdk-v2-demo-app.git
+   ```
+
+2. Open the project in Android Studio
+
+3. Sync Gradle and run on a device or emulator
+
+## Configuration
+
+All SDK configuration values are in [`AyetConfig.kt`](app/src/main/java/com/example/androidsdkv2demoapp/AyetConfig.kt):
+
+```kotlin
+object AyetConfig {
+    const val SDK_VERSION = "1.0.0"
+    const val PLACEMENT_ID = 21209
+
+    const val ADSLOT_OFFERWALL = "SdkV2Offerwall"
+    const val ADSLOT_SURVEYWALL = "SdkV2Surveywall"
+    const val ADSLOT_FEED = "SdkV2OfferwallApi"
+
+    val DEFAULT_GENDER = AyetSdk.Gender.MALE
+    const val DEFAULT_AGE = 27
+    const val DEFAULT_CUSTOM_1 = "demo_app_example_custom"
+}
+```
+
+## Features Demonstrated
+
+- SDK initialization
+- Show Offerwall
+- Show Surveywall
+- Show Reward Status
+- Get Offers (API)
+- External identifier management
+
+## Documentation
+
+For full SDK documentation, see: https://docs.ayetstudios.com/v/product-docs/offerwall/sdk-integrations-v2/android-sdk-v2
+
+## License
+
+MIT License - see [LICENSE](LICENSE) for details.

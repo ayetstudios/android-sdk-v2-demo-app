@@ -42,6 +42,9 @@ object AyetConfig {
     const val DEFAULT_CUSTOM_1 = "demo_app_example_custom"
 }
 ```
+**Note**: The package name must be set to `com.example.androidsdkv2demoapp` in your placement settings to use the demo app:
+<img width="1170" height="322" alt="image" src="https://github.com/user-attachments/assets/2310f9d2-7d41-4efa-b5f0-38dc134f24a3" />
+
 
 ## Features Demonstrated
 

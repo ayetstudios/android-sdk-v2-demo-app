@@ -2,6 +2,13 @@
 
 A demo application showcasing the integration of the [Ayet Android SDK v2](https://central.sonatype.com/artifact/io.ayet/android-sdk-v2).
 
+<table>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/ccbf118c-dbbc-4c52-bcd9-fd507148154c" width="250"></td>
+    <td><img src="https://github.com/user-attachments/assets/73985f81-268d-4b63-aab2-5a65b2807a35" width="250"></td>
+  </tr>
+</table>
+
 ## Requirements
 
 - Android SDK 24+ (Android 7.0)

@@ -40,7 +40,7 @@ android {
 }
 
 dependencies {
-    implementation("io.ayet:android-sdk-v2:1.0.1")
+    implementation("io.ayet:android-sdk-v2:1.0.2")
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
